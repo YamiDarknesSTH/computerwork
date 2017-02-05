@@ -1,0 +1,460 @@
+{
+  "settings": {
+    "currentPage": "index.html",
+    "name": "My Site",
+    "theme": {
+      "name": "mobirise3",
+      "title": "Mobirise 3",
+      "styling": {
+        "primaryColor": "#c0a375",
+        "secondaryColor": "#bfcecb",
+        "successColor": "#90a878",
+        "infoColor": "#7e9b9f",
+        "warningColor": "#f3c649",
+        "dangerColor": "#f28281",
+        "titleFont": "Montserrat",
+        "subtitleFont": "Lora",
+        "textFont": "Raleway",
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false
+      }
+    },
+    "versionFirst": "3.11.1",
+    "uniqCompNum": 12,
+    "versionPublish": "3.11.1"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "ดวงดาวและอวกาศ",
+        "meta_descr": "ไม่ใช่แค่โลกเท่านั้นที่อยู่ในอวกาศ",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700",
+              "font-family": "'Titillium Web', sans-serif"
+            },
+            ".link": {
+              "font-size": "1.35rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.462rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#000000!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-5",
+          "_params": {
+            "bgColor": "#000000",
+            "fontSize": "1.35",
+            "fontName": {
+              "name": "Titillium Web",
+              "url": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700",
+              "css": "'Titillium Web', sans-serif"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": false,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">หน้าหลัก</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">อวกาศมีอะไร</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">กาแล็กซี่</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">ระบบสุริยะ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">เอกภพ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">ผู้จัดทำเว็บไซต์</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">ผู้จัดทำ</a></li>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-0",
+          "_params": {
+            "paddingTop": "5",
+            "paddingBottom": "5",
+            "parallax": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/pd-2000x705.png",
+            "bgColor": "#F2F2F2",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButton": false
+          },
+          "title": "",
+          "text": "<p><br></p><p><br></p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            },
+            ".mbr-section-title": {
+              "text-align": "center"
+            },
+            "P": {
+              "text-align": "center",
+              "font-size": "20px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-1",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/desert2.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "width": 1280,
+              "height": 720,
+              "url": "https://www.youtube.com/embed/W02gqzO5OCY?rel=0&amp;showinfo=0&autoplay=0&loop=0"
+            },
+            "bgVideoRadio": true,
+            "overlay": true,
+            "overlayOpacity": "0.4",
+            "overlayColor": "#000",
+            "showTitle": true,
+            "showCaption": true
+          },
+          "title": "ไม่ใช่แค่โลกเท่านั้นที่อยู่ในเอกภพ",
+          "caption": "<p>ไม่ใช่แค่เราเท่านั้นที่อยู่ในอวกาศหรือเอกภพ ยังมีดาวเคราห์ต่างๆอีกมากมายที่เรายังไม่รู้จัก หรือยังไม่ถูกค้นพบ&nbsp;</p><p>สิ่งที่เราค้นพบแล้ว มีเพียง 0.000000001% ของทั้งเอกภพ</p>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            },
+            ".mbr-section-title": {
+              "text-align": "center"
+            },
+            "DIV": {
+              "color": "#ffffff",
+              "font-size": "20px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-7",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/universe-background-2000x1250.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "showTitle": true,
+            "showCaption": true
+          },
+          "title": "การค้นพบและการสำรวจ",
+          "caption": "เป็นเวลาหลายพันปีในอดีตกาลที่มนุษยชาติไม่เคยรับรู้มาก่อนว่ามีสิ่งที่เรียกว่า ระบบสุริยะ แต่เดิมมนุษย์เชื่อว่า โลกเป็นศูนย์กลางจักรวาลที่อยู่นิ่ง มีดวงดาวต่าง ๆ โคจรไปรอบ ๆ ผ่านไปบนท้องฟ้า แม้ว่านักดาราศาสตร์และนักคณิตศาสตร์ชาวอินเดียชื่อ Aryabhata และนักปรัชญาชาวกรีก Aristarchus เคยมีแนวคิดเกี่ยวกับการที่ดวงอาทิตย์เป็นศูนย์กลางจักรวาล และจัดลำดับจักรวาลเสียใหม่ แต่ผู้ที่สามารถคิดค้นแบบจำลองทางคณิตศาสตร์เพื่อพิสูจน์แนวคิดนี้ได้สำเร็จเป็นคนแรกคือ นิโคเลาส์ โคเปอร์นิคัส ในคริสต์ศตวรรษที่ 17 มีผู้สืบทอดแนวทางการศึกษาของเขาต่อมา คือกาลิเลโอ กาลิเลอี โยฮันเนส เคปเลอร์ และ ไอแซค นิวตัน พวกเขาพยายามทำความเข้าใจระบบทางฟิสิกส์และเสาะหาหลักฐานการพิสูจน์ยืนยันว่า โลกเคลื่อนไปรอบ ๆ ดวงอาทิตย์ และดาวเคราะห์ทั้งหลายต่างก็ดำเนินไปภายใต้กฎทางฟิสิกส์แบบเดียวกันนี้ ในยุคหลังต่อมาจึงเริ่มมีการสืบสวนค้นหาปรากฏการณ์ทางภูมิธรณีต่าง ๆ เช่น เทือกเขา แอ่งหิน ปรากฏการณ์สภาพอากาศที่แปรเปลี่ยนตามฤดูกาล การศึกษาเกี่ยวกับเมฆ พายุทราย และยอดเขาน้ำแข็งบนดาวเคราะห์ดวงอื่น ๆ"
+        }
+      ]
+    },
+    "page1.html": {
+      "settings": {
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700",
+              "font-family": "'Titillium Web', sans-serif"
+            },
+            ".link": {
+              "font-size": "1rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.083rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#1f5087"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#2662a4!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#2969b0"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-8",
+          "_params": {
+            "bgColor": "#000000",
+            "fontSize": "1.35",
+            "fontName": {
+              "name": "Titillium Web",
+              "url": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700",
+              "css": "'Titillium Web', sans-serif"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": false,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">หน้าหลัก</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">อวกาศมีอะไร</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">กาแล็กซี่</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">ระบบสุริยะ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">เอกภพ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">ผู้จัดทำเว็บไซต์</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">ผู้จัดทำ</a></li>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-9",
+          "_params": {
+            "paddingTop": "5",
+            "paddingBottom": "5",
+            "parallax": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/pd-2000x705.png",
+            "bgColor": "#F2F2F2",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButton": false
+          },
+          "title": "",
+          "text": "<p><br></p><p><br></p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            },
+            ".mbr-section-title": {
+              "text-align": "center"
+            },
+            "P": {
+              "text-align": "center",
+              "font-size": "20px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-a",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/desert2.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "width": 1280,
+              "height": 720,
+              "url": "https://www.youtube.com/embed/W02gqzO5OCY?rel=0&amp;showinfo=0&autoplay=0&loop=0"
+            },
+            "bgVideoRadio": true,
+            "overlay": true,
+            "overlayOpacity": "0.4",
+            "overlayColor": "#000",
+            "showTitle": true,
+            "showCaption": true
+          },
+          "title": "ไม่ใช่แค่โลกเท่านั้นที่อยู่ในเอกภพ",
+          "caption": "<p>ไม่ใช่แค่เราเท่านั้นที่อยู่ในอวกาศหรือเอกภพ ยังมีดาวเคราห์ต่างๆอีกมากมายที่เรายังไม่รู้จัก หรือยังไม่ถูกค้นพบ&nbsp;</p><p>สิ่งที่เราค้นพบแล้ว มีเพียง 0.00000000000001% ของทั้งเอกภพ</p>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            },
+            ".mbr-section-title": {
+              "text-align": "center"
+            },
+            "DIV": {
+              "color": "#ffffff",
+              "font-size": "20px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-b",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/universe-background-2000x1250.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "showTitle": true,
+            "showCaption": true
+          },
+          "title": "การค้นพบและการสำรวจ",
+          "caption": "เป็นเวลาหลายพันปีในอดีตกาลที่มนุษยชาติไม่เคยรับรู้มาก่อนว่ามีสิ่งที่เรียกว่า ระบบสุริยะ แต่เดิมมนุษย์เชื่อว่า โลกเป็นศูนย์กลางจักรวาลที่อยู่นิ่ง มีดวงดาวต่าง ๆ โคจรไปรอบ ๆ ผ่านไปบนท้องฟ้า แม้ว่านักดาราศาสตร์และนักคณิตศาสตร์ชาวอินเดียชื่อ Aryabhata และนักปรัชญาชาวกรีก Aristarchus เคยมีแนวคิดเกี่ยวกับการที่ดวงอาทิตย์เป็นศูนย์กลางจักรวาล และจัดลำดับจักรวาลเสียใหม่ แต่ผู้ที่สามารถคิดค้นแบบจำลองทางคณิตศาสตร์เพื่อพิสูจน์แนวคิดนี้ได้สำเร็จเป็นคนแรกคือ นิโคเลาส์ โคเปอร์นิคัส ในคริสต์ศตวรรษที่ 17 มีผู้สืบทอดแนวทางการศึกษาของเขาต่อมา คือกาลิเลโอ กาลิเลอี โยฮันเนส เคปเลอร์ และ ไอแซค นิวตัน พวกเขาพยายามทำความเข้าใจระบบทางฟิสิกส์และเสาะหาหลักฐานการพิสูจน์ยืนยันว่า โลกเคลื่อนไปรอบ ๆ ดวงอาทิตย์ และดาวเคราะห์ทั้งหลายต่างก็ดำเนินไปภายใต้กฎทางฟิสิกส์แบบเดียวกันนี้ ในยุคหลังต่อมาจึงเริ่มมีการสืบสวนค้นหาปรากฏการณ์ทางภูมิธรณีต่าง ๆ เช่น เทือกเขา แอ่งหิน ปรากฏการณ์สภาพอากาศที่แปรเปลี่ยนตามฤดูกาล การศึกษาเกี่ยวกับเมฆ พายุทราย และยอดเขาน้ำแข็งบนดาวเคราะห์ดวงอื่น ๆ"
+        }
+      ]
+    }
+  }
+}
