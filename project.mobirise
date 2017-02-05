@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "myprofiles.html",
     "name": "My Site",
     "theme": {
       "name": "mobirise3",
@@ -21,8 +21,10 @@
       }
     },
     "versionFirst": "3.11.1",
-    "uniqCompNum": 12,
-    "versionPublish": "3.11.1"
+    "uniqCompNum": 46,
+    "versionPublish": "3.11.1",
+    "favicon": "@PROJECT_PATH@/assets/images/love-128x128.png",
+    "noImageResize": ""
   },
   "pages": {
     "index.html": {
@@ -51,26 +53,26 @@
             },
             ".link, .dropdown-item": {
               "color": "#ffffff",
-              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700",
-              "font-family": "'Titillium Web', sans-serif"
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700",
+              "font-family": "'PT Sans Narrow', sans-serif"
             },
             ".link": {
-              "font-size": "1.35rem"
+              "font-size": "1.1rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "1.462rem"
+              "font-size": "1.191rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#000000"
+              "background": "#1b044f"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#000000!important"
+              "background": "#260571!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#000000"
+              "background": "#2b0680"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -92,12 +94,12 @@
           "_name": "menu",
           "_anchor": "menu-5",
           "_params": {
-            "bgColor": "#000000",
-            "fontSize": "1.35",
+            "bgColor": "#2b0680",
+            "fontSize": "1.1",
             "fontName": {
-              "name": "Titillium Web",
-              "url": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700",
-              "css": "'Titillium Web', sans-serif"
+              "name": "PT Sans Narrow",
+              "url": "https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700",
+              "css": "'PT Sans Narrow', sans-serif"
             },
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
@@ -123,7 +125,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">หน้าหลัก</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">อวกาศมีอะไร</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">กาแล็กซี่</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">ระบบสุริยะ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">เอกภพ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">ผู้จัดทำเว็บไซต์</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">ผู้จัดทำ</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">หน้าหลัก</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"whatispace.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">อวกาศ</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"whatispace.html\">อวกาศคืออะไร</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"whatispace.html#content5-f\">มวลสารระหว่างดาว</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"solarsystem.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">ระบบสุริยะ</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"solarsystem.html\">ระบบสุริยะ</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"solarsystem.html#msg-box8-m\">การค้นพบระบบสุริยะ</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"solarsystem.html#content1-n\">กำเนิดระบบสุริยะ</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"galaxy.html\" aria-expanded=\"false\">กาแล็กซี่</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"universe.html\" aria-expanded=\"false\">เอกภพ</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">ผู้จัดทำเว็บไซต์</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"myprofiles.html\">ผู้จัดทำ</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">หมายเหตุ</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">ผู้จัดทำ</a></li>"
         },
         {
           "_styles": {
@@ -241,10 +243,10 @@
         }
       ]
     },
-    "page1.html": {
+    "whatispace.html": {
       "settings": {
-        "title": "",
-        "meta_descr": "",
+        "title": "อวกาศคืออะไร",
+        "meta_descr": "ไม่ใช่แค่โลกเท่านั้นที่อยู่ในอวกาศ",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
@@ -266,26 +268,26 @@
             },
             ".link, .dropdown-item": {
               "color": "#ffffff",
-              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700",
-              "font-family": "'Titillium Web', sans-serif"
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700",
+              "font-family": "'PT Sans Narrow', sans-serif"
             },
             ".link": {
-              "font-size": "1rem"
+              "font-size": "1.1rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "1.083rem"
+              "font-size": "1.191rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#1f5087"
+              "background": "#1b044f"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#2662a4!important"
+              "background": "#260571!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#2969b0"
+              "background": "#2b0680"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -305,14 +307,14 @@
             "Theme"
           ],
           "_name": "menu",
-          "_anchor": "menu-8",
+          "_anchor": "menu-c",
           "_params": {
-            "bgColor": "#000000",
-            "fontSize": "1.35",
+            "bgColor": "#2b0680",
+            "fontSize": "1.1",
             "fontName": {
-              "name": "Titillium Web",
-              "url": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700",
-              "css": "'Titillium Web', sans-serif"
+              "name": "PT Sans Narrow",
+              "url": "https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700",
+              "css": "'PT Sans Narrow', sans-serif"
             },
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
@@ -338,82 +340,38 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">หน้าหลัก</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">อวกาศมีอะไร</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">กาแล็กซี่</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">ระบบสุริยะ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">เอกภพ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">ผู้จัดทำเว็บไซต์</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">ผู้จัดทำ</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">หน้าหลัก</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"whatispace.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">อวกาศ</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"whatispace.html\">อวกาศคืออะไร</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"whatispace.html#content5-f\">มวลสารระหว่างดาว</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"solarsystem.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">ระบบสุริยะ</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"solarsystem.html\">ระบบสุริยะ</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"solarsystem.html#msg-box8-m\">การค้นพบระบบสุริยะ</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"solarsystem.html#content1-n\">กำเนิดระบบสุริยะ</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"galaxy.html\" aria-expanded=\"false\">กาแล็กซี่</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"universe.html\" aria-expanded=\"false\">เอกภพ</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">ผู้จัดทำเว็บไซต์</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"myprofiles.html\">ผู้จัดทำ</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">หมายเหตุ</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">ผู้จัดทำ</a></li>"
         },
         {
-          "_styles": {
-            ".mbr-section-title, p": {
-              "color": "#fff"
-            }
-          },
           "_tags": [
             "Theme"
           ],
-          "_name": "msg-box8",
-          "_anchor": "msg-box8-9",
+          "_name": "header1",
+          "_anchor": "header1-g",
           "_params": {
-            "paddingTop": "5",
-            "paddingBottom": "5",
-            "parallax": false,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/pd-2000x705.png",
-            "bgColor": "#F2F2F2",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "showTitle": true,
-            "showText": true,
-            "showButton": false
-          },
-          "title": "",
-          "text": "<p><br></p><p><br></p>",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
-        },
-        {
-          "_styles": {
-            ".mbr-section-title, p": {
-              "color": "#fff"
-            },
-            ".mbr-section-title": {
-              "text-align": "center"
-            },
-            "P": {
-              "text-align": "center",
-              "font-size": "20px"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content5",
-          "_anchor": "content5-a",
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
             "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/desert2.jpg",
-            "bgColor": "#fff",
+            "bgImageRadio": false,
+            "showArrow": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#a07e49",
             "bgColorRadio": false,
             "bgVideo": {
               "width": 1280,
               "height": 720,
-              "url": "https://www.youtube.com/embed/W02gqzO5OCY?rel=0&amp;showinfo=0&autoplay=0&loop=0"
+              "url": "https://www.youtube.com/embed/wFzkN_TSVrM?rel=0&amp;showinfo=0&autoplay=0&loop=0"
             },
             "bgVideoRadio": true,
             "overlay": true,
-            "overlayOpacity": "0.4",
+            "overlayOpacity": 0.5,
             "overlayColor": "#000",
+            "contentAlign": "center",
             "showTitle": true,
-            "showCaption": true
+            "showText": true,
+            "showButtons": false
           },
-          "title": "ไม่ใช่แค่โลกเท่านั้นที่อยู่ในเอกภพ",
-          "caption": "<p>ไม่ใช่แค่เราเท่านั้นที่อยู่ในอวกาศหรือเอกภพ ยังมีดาวเคราห์ต่างๆอีกมากมายที่เรายังไม่รู้จัก หรือยังไม่ถูกค้นพบ&nbsp;</p><p>สิ่งที่เราค้นพบแล้ว มีเพียง 0.00000000000001% ของทั้งเอกภพ</p>"
+          "title": "อวกาศคืออะไร",
+          "text": "<br>ความว่างเปล่าที่มีอยู่ระหว่างวัตถุท้องฟ้า รวมถึงโลก อวกาศมิได้ว่างเปล่าอย่างสิ้นเชิง แต่ประกอบด้วยสุญญากาศแข็งที่ประกอบด้วยอนุภาคความหนาแน่นต่ำ ซึ่งมีพลาสมาของไฮโดรเจนและฮีเลียมเป็นหลัก เช่นเดียวกับรังสีแม่เหล็กไฟฟ้า สนามแม่เหล็กและนิวตริโน ปัจจุบัน การสังเกตได้พิสูจน์แล้วว่าอวกาศยังมีสสารมืดและพลังงานมืดอยู่ด้วย อุณหภูมิเส้นฐานกำหนดโดยรังสีพื้นหลังที่หลงเหลือจากบิกแบงมีค่าเพียง 2.7 เคลวิน ในทางตรงข้าม อุณหภูมิในโคโรนาของดาวฤกษ์อาจสูงถึงหนึ่งล้านเคลวิน พลาสมาที่มีความหนาแน่นต่ำมาก (น้อยกว่าหนึ่งอะตอมไฮโดรเจนต่อลูกบาศก์เมตร) และอุณหภูมิสูง (หลายล้านเคลวิน) ในอวกาศระหว่างดาราจักรเป็นที่มาของสสารแบริออน (baryonic matter) ในอวกาศ ความเข้มข้นเฉพาะถิ่นรวมกันเป็นดาวฤกษ์และดาราจักร อวกาศระหว่างดาราจักรกินปริมาตรส่วนใหญ่ของเอกภพ กระนั้น แม้แต่ดาราจักรและระบบดาวฤกษ์ก็แทบเป็นอวกาศที่ว่างเปล่าสิ้นเชิง",
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD FOR MAC</a>"
         },
         {
           "_styles": {
@@ -432,7 +390,7 @@
             "Theme"
           ],
           "_name": "content5",
-          "_anchor": "content5-b",
+          "_anchor": "content5-f",
           "_params": {
             "paddingTop": 3,
             "paddingBottom": 3,
@@ -451,8 +409,989 @@
             "showTitle": true,
             "showCaption": true
           },
-          "title": "การค้นพบและการสำรวจ",
-          "caption": "เป็นเวลาหลายพันปีในอดีตกาลที่มนุษยชาติไม่เคยรับรู้มาก่อนว่ามีสิ่งที่เรียกว่า ระบบสุริยะ แต่เดิมมนุษย์เชื่อว่า โลกเป็นศูนย์กลางจักรวาลที่อยู่นิ่ง มีดวงดาวต่าง ๆ โคจรไปรอบ ๆ ผ่านไปบนท้องฟ้า แม้ว่านักดาราศาสตร์และนักคณิตศาสตร์ชาวอินเดียชื่อ Aryabhata และนักปรัชญาชาวกรีก Aristarchus เคยมีแนวคิดเกี่ยวกับการที่ดวงอาทิตย์เป็นศูนย์กลางจักรวาล และจัดลำดับจักรวาลเสียใหม่ แต่ผู้ที่สามารถคิดค้นแบบจำลองทางคณิตศาสตร์เพื่อพิสูจน์แนวคิดนี้ได้สำเร็จเป็นคนแรกคือ นิโคเลาส์ โคเปอร์นิคัส ในคริสต์ศตวรรษที่ 17 มีผู้สืบทอดแนวทางการศึกษาของเขาต่อมา คือกาลิเลโอ กาลิเลอี โยฮันเนส เคปเลอร์ และ ไอแซค นิวตัน พวกเขาพยายามทำความเข้าใจระบบทางฟิสิกส์และเสาะหาหลักฐานการพิสูจน์ยืนยันว่า โลกเคลื่อนไปรอบ ๆ ดวงอาทิตย์ และดาวเคราะห์ทั้งหลายต่างก็ดำเนินไปภายใต้กฎทางฟิสิกส์แบบเดียวกันนี้ ในยุคหลังต่อมาจึงเริ่มมีการสืบสวนค้นหาปรากฏการณ์ทางภูมิธรณีต่าง ๆ เช่น เทือกเขา แอ่งหิน ปรากฏการณ์สภาพอากาศที่แปรเปลี่ยนตามฤดูกาล การศึกษาเกี่ยวกับเมฆ พายุทราย และยอดเขาน้ำแข็งบนดาวเคราะห์ดวงอื่น ๆ"
+          "title": "มวลสารระหว่างดาว&nbsp;",
+          "caption": "มวลสารระหว่างดาว (อังกฤษ: interstellar medium; ISM) ในทางดาราศาสตร์หมายถึงกลุ่มแก๊สและฝุ่นที่กระจายตัวอยู่ในพื้นที่ว่างระหว่างดวงดาว เป็นสสารที่ดำรงอยู่ระหว่างดาวฤกษ์ต่างๆ ในดาราจักร เติมเติมช่องว่างระหว่างดวงดาวและผสานต่อเนื่องกับช่องว่างระหว่างดาราจักรที่อยู่โดยรอบ การแผ่คลื่นแม่เหล็กไฟฟ้าเป็นพลังงานของสสารมีปริมาณเท่ากันกับสนามการแผ่รังสีระหว่างดวงดาว<div><br></div><div>มวลสารระหว่างดาวประกอบด้วยองค์ประกอบอันเจือจางอย่างมากของไอออน อะตอม โมเลกุล ฝุ่นขนาดใหญ่ รังสีคอสมิก และสนามแม่เหล็กของดาราจักร[1] โดยที่ 99% ของมวลของสสารเป็นแก๊ส และอีก 1% เป็นฝุ่น มีความหนาแน่นเฉลี่ยในดาราจักรทางช้างเผือก ระหว่างไม่กี่พันจนถึงหลักร้อยล้านหน่วยอนุภาคต่อลูกบาศก์เมตร ประมาณ 90% ของแก๊สเป็นไฮโดรเจน ส่วนอีกประมาณ 10% เป็นฮีเลียม เมื่อพิจารณาตามจำนวนของนิวเคลียส โดยมีสสารมวลหนักผสมอยู่บ้างเล็กน้อย</div><div><br></div><div>มวลสารระหว่างดาวมีบทบาทสำคัญอย่างยิ่งสำหรับการศึกษาฟิสิกส์ดาราศาสตร์ เนื่องจากมันอยู่ในระหว่างกลางของเหล่าดวงดาวในดาราจักร ดาวฤกษ์ใหม่จะเกิดขึ้นจากย่านที่หนาแน่นที่สุดของสสารนี้กับเมฆโมเลกุล โดยได้รับสสารและพลังงานมาจากเนบิวลาดาวเคราะห์ ลมระหว่างดาว และซูเปอร์โนวา ความสัมพันธ์ระหว่างดาวฤกษ์กับมวลสารระหว่างดาวช่วยให้นักดาราศาสตร์สามารถคำนวณอัตราการสูญเสียแก๊สของดาราจักร และสามารถคาดการณ์ช่วงเวลาการก่อตัวของดาวฤกษ์กัมมันต์ได้</div>"
+        }
+      ]
+    },
+    "solarsystem.html": {
+      "settings": {
+        "title": "ระบบสุริยะ",
+        "meta_descr": "ไม่ใช่แค่โลกเท่านั้นที่อยู่ในอวกาศ",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700",
+              "font-family": "'PT Sans Narrow', sans-serif"
+            },
+            ".link": {
+              "font-size": "1.1rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.191rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#1b044f"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#260571!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#2b0680"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-h",
+          "_params": {
+            "bgColor": "#2b0680",
+            "fontSize": "1.1",
+            "fontName": {
+              "name": "PT Sans Narrow",
+              "url": "https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700",
+              "css": "'PT Sans Narrow', sans-serif"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": false,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">หน้าหลัก</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"whatispace.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">อวกาศ</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"whatispace.html\">อวกาศคืออะไร</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"whatispace.html#content5-f\">มวลสารระหว่างดาว</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"solarsystem.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">ระบบสุริยะ</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"solarsystem.html\">ระบบสุริยะ</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"solarsystem.html#msg-box8-m\">การค้นพบระบบสุริยะ</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"solarsystem.html#content1-n\">กำเนิดระบบสุริยะ</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"galaxy.html\" aria-expanded=\"false\">กาแล็กซี่</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"universe.html\" aria-expanded=\"false\">เอกภพ</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">ผู้จัดทำเว็บไซต์</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"myprofiles.html\">ผู้จัดทำ</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">หมายเหตุ</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">ผู้จัดทำ</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-i",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": false,
+            "showArrow": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "width": 1280,
+              "height": 720,
+              "url": "https://www.youtube.com/embed/X9LKAnySua8?rel=0&amp;showinfo=0&autoplay=0&loop=0"
+            },
+            "bgVideoRadio": true,
+            "overlay": true,
+            "overlayOpacity": "0.6",
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "title": "ระบบสุริยะ",
+          "text": "<br>ระบบสุริยะ (อังกฤษ: Solar System) ประกอบด้วยดวงอาทิตย์และวัตถุอื่น ๆ ที่โคจรรอบดวงอาทิตย์เนื่องจากแรงโน้มถ่วง ได้แก่ ดาวเคราะห์ 8 ดวงกับดวงจันทร์บริวารที่ค้นพบแล้ว 166 ดวง ดาวเคราะห์แคระ 5 ดวงกับดวงจันทร์บริวารที่ค้นพบแล้ว 4 ดวง กับวัตถุขนาดเล็กอื่น ๆ อีกนับล้านชิ้น ซึ่งรวมถึง ดาวเคราะห์น้อย วัตถุในแถบไคเปอร์ ดาวหาง สะเก็ดดาว และฝุ่นระหว่างดาวเคราะห์<br><br>",
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD FOR MAC</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content6",
+          "_anchor": "content6-k",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#2b0680"
+          },
+          "text1": "<p><br></p><p>โดยทั่วไปแล้วจะแบ่งย่านต่าง ๆ ของระบบสุริยะ นับจากดวงอาทิตย์ออกมาดังนี้คือ ดาวเคราะห์ชั้นในจำนวน 4 ดวง แถบดาวเคราะห์น้อย ดาวเคราะห์ขนาดใหญ่รอบนอกจำนวน 4 ดวง และแถบไคเปอร์ซึ่งประกอบด้วยวัตถุที่เย็นจัดเป็นน้ำแข็ง พ้นจากแถบไคเปอร์ออกไปเป็นเขตแถบจานกระจาย ขอบเขตเฮลิโอพอส (เขตแดนตามทฤษฎีที่ซึ่งลมสุริยะสิ้นกำลังลงเนื่องจากมวลสารระหว่างดวงดาว) และพ้นไปจากนั้นคือย่านของเมฆออร์ต<div><br></div><div>กระแสพลาสมาที่ไหลออกจากดวงอาทิตย์ (หรือลมสุริยะ) จะแผ่ตัวไปทั่วระบบสุริยะ สร้างโพรงขนาดใหญ่ขึ้นในสสารระหว่างดาวเรียกกันว่า เฮลิโอสเฟียร์ ซึ่งขยายออกไปจากใจกลางของแถบจานกระจาย</div><div><br></div><div><br></div></p>",
+          "text2": "<p><br></p><p>ดาวเคราะห์ชั้นเอกทั้ง 8 ดวงในระบบสุริยะ เรียงลำดับจากใกล้ดวงอาทิตย์ที่สุดออกไป มีดังนี้คือ ดาวพุธ ดาวศุกร์ โลก ดาวอังคาร ดาวพฤหัสบดี ดาวเสาร์ ดาวยูเรนัส และดาวเนปจูน</p><div><br></div><div>นับถึงกลางปี ค.ศ. 2008 วัตถุขนาดย่อมกว่าดาวเคราะห์จำนวน 5 ดวง ได้รับการจัดระดับให้เป็นดาวเคราะห์แคระ ได้แก่ ซีรีสในแถบดาวเคราะห์น้อย กับวัตถุอีก 4 ดวงที่โคจรรอบดวงอาทิตย์อยู่ในย่านพ้นดาวเนปจูน คือ ดาวพลูโต (ซึ่งเดิมเคยถูกจัดระดับไว้เป็นดาวเคราะห์) เฮาเมอา มาคีมาคี และ อีรีส</div><div><br></div><div>มีดาวเคราะห์ 6 ดวงและดาวเคราะห์แคระ 3 ดวงที่มีดาวบริวารโคจรอยู่รอบ ๆ เราเรียกดาวบริวารเหล่านี้ว่า \"ดวงจันทร์\" ตามอย่างดวงจันทร์ของโลก นอกจากนี้ดาวเคราะห์ชั้นนอกยังมีวงแหวนดาวเคราะห์อยู่รอบตัวอันประกอบด้วยเศษฝุ่นและอนุภาคขนาดเล็ก</div><div><br></div><div>สำหรับคำว่า ระบบดาวเคราะห์ ใช้เมื่อกล่าวถึงระบบดาวโดยทั่วไปที่มีวัตถุต่าง ๆ โคจรรอบดาวฤกษ์ คำว่า \"ระบบสุริยะ\" ควรใช้เฉพาะกับระบบดาวเคราะห์ที่มีโลกเป็นสมาชิก และไม่ควรเรียกว่า \"ระบบสุริยจักรวาล\" อย่างที่เรียกกันติดปาก เนื่องจากไม่เกี่ยวข้องกับคำว่า \"จักรวาล\" ตามนัยที่ใช้ในปัจจุบัน</div><p></p>",
+          "_styles": {
+            "DIV": {
+              "color": "#ffffff"
+            }
+          }
+        },
+        {
+          "_inherit": "msg-box5",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-l",
+          "_params": {
+            "imageSize": "49",
+            "paddingTop": "3",
+            "paddingBottom": "3",
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/universe-background-2000x1250.jpg",
+            "bgColor": "#F2F2F2",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
+            "inverse": false,
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/gallery/desktop.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "https://www.youtube.com/watch?v=MK5E_7hOi-k",
+              "aspectratio": "16:9",
+              "autoplay": "on",
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "เปรียบเทียบขนาดของดาวแต่ละดวงในระบบสุริยะ",
+          "text": "<p>Online video and Youtube particularly is now more popular than cable television.</p>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "_styles": {
+            "H3": {
+              "color": "#ffffff"
+            }
+          }
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            },
+            ".lead DIV": {
+              "color": "#ffffff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-m",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/img-2000x1125.jpg",
+            "bgColor": "#F2F2F2",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButton": false
+          },
+          "title": "การค้นพบระบบสุริยะ",
+          "text": "<br><div><span style=\"font-size: 1.07rem; line-height: 1.5;\">นับเป็นเวลาหลายพันปีในอดีตกาลที่มนุษยชาติไม่เคยรับรู้มาก่อนว่ามีสิ่งที่เรียกว่า ระบบสุริยะ แต่เดิมมนุษย์เชื่อว่า โลกเป็นศูนย์กลางจักรวาลที่อยู่นิ่ง มีดวงดาวต่าง ๆ โคจรไปรอบ ๆ ผ่านไปบนท้องฟ้า แม้ว่านักดาราศาสตร์และนักคณิตศาสตร์ชาวอินเดียชื่อ Aryabhata และนักปรัชญาชาวกรีก Aristarchus เคยมีแนวคิดเกี่ยวกับการที่ดวงอาทิตย์เป็นศูนย์กลางจักรวาล และจัดลำดับจักรวาลเสียใหม่ แต่ผู้ที่สามารถคิดค้นแบบจำลองทางคณิตศาสตร์เพื่อพิสูจน์แนวคิดนี้ได้สำเร็จเป็นคนแรกคือ นิโคเลาส์ โคเปอร์นิคัส ในคริสต์ศตวรรษที่ 17 มีผู้สืบทอดแนวทางการศึกษาของเขาต่อมา คือกาลิเลโอ กาลิเลอี โยฮันเนส เคปเลอร์ และ ไอแซค นิวตัน พวกเขาพยายามทำความเข้าใจระบบทางฟิสิกส์และเสาะหาหลักฐานการพิสูจน์ยืนยันว่า โลกเคลื่อนไปรอบ ๆ ดวงอาทิตย์ และดาวเคราะห์ทั้งหลายต่างก็ดำเนินไปภายใต้กฎทางฟิสิกส์แบบเดียวกันนี้ ในยุคหลังต่อมาจึงเริ่มมีการสืบสวนค้นหาปรากฏการณ์ทางภูมิธรณีต่าง ๆ เช่น เทือกเขา แอ่งหิน ปรากฏการณ์สภาพอากาศที่แปรเปลี่ยนตามฤดูกาล การศึกษาเกี่ยวกับเมฆ พายุทราย และยอดเขาน้ำแข็งบนดาวเคราะห์ดวงอื่น ๆ</span><br></div>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "color": "#ffffff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-o",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "0",
+            "bgColor": "#2b0680",
+            "showMeta": false
+          },
+          "title": "กำเนิดระบบสุริยะ",
+          "meta": ""
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-n",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#2b0680"
+          },
+          "text": "<p><br></p><p>ระบบสุริยะถือกำเนิดขึ้นจากการแตกสลายด้วยแรงโน้มถ่วงภายในของเมฆโมเลกุลขนาดยักษ์เมื่อกว่า 4,600 ล้านปีมาแล้ว เมฆต้นกำเนิดนี้มีความกว้างหลายปีแสง และอาจเป็นต้นกำเนิดของดาวฤกษ์อื่นอีกจำนวนมาก&nbsp;</p><div><br></div><div>เมื่อย่านเนบิวลาก่อนสุริยะ ซึ่งน่าจะเป็นจุดกำเนิดของระบบสุริยะ เกิดแตกสลายลง โมเมนตัมเชิงมุมที่มีอยู่ทำให้มันหมุนตัวไปเร็วยิ่งขึ้น ที่ใจกลางของย่านซึ่งเป็นศูนย์รวมมวลอันหนาแน่นมีอุณหภูมิเพิ่มสูงมากขึ้นกว่าแผ่นจานที่หมุนอยู่รอบ ๆ ขณะที่เนบิวลานี้หดตัวลง มันก็เริ่มมีทรงแบนยิ่งขึ้นและค่อย ๆ ม้วนตัวจนกลายเป็นจานดาวเคราะห์ก่อนเกิด ที่มีเส้นผ่านศูนย์กลางราว 200 AU พร้อมกับมีดาวฤกษ์ก่อนเกิดที่หนาแน่นและร้อนจัดอยู่ ณ ใจกลาง &nbsp;เมื่อการวิวัฒนาการดำเนินมาถึงจุดนี้ เชื่อว่าดวงอาทิตย์ได้มีสภาพเป็นดาวฤกษ์ชนิด T Tauri ผลจากการศึกษาดาวฤกษ์ชนิด T Tauri พบว่ามันมักมีแผ่นจานของมวลสารดาวเคราะห์ก่อนเกิดที่มีมวลประมาณ 0.001-0.1 เท่าของมวลดวงอาทิตย์ กับมวลของเนบิวลาในตัวดาวฤกษ์เองอีกเป็นส่วนใหญ่จำนวนมหาศาล ดาวเคราะห์ก่อตัวขึ้นจากแผ่นจานรวมมวลเหล่านี้&nbsp;</div><div><br></div><div>ภายในช่วงเวลา 50 ล้านปี ความดันและความหนาแน่นของไฮโดรเจนที่ใจกลางของดาวฤกษ์ก่อนเกิดก็มีมากพอจะทำให้เกิดปฏิกิริยานิวเคลียร์ฟิวชั่นขึ้นได้ &nbsp;ทั้งอุณหภูมิ อัตราการเกิดปฏิกิริยา ความดัน ตลอดจนความหนาแน่นต่างเพิ่มขึ้นเรื่อย ๆ จนกระทั่งถึงสภาวะสมดุลอุทกสถิต โดยมีพลังงานความร้อนที่มากพอจะต้านทานกับการหดตัวของแรงโน้มถ่วงได้ ณ จุดนี้ดวงอาทิตย์จึงได้วิวัฒนาการเข้าสู่แถบลำดับหลักอย่างสมบูรณ์&nbsp;</div><div><br></div><div><br></div><div><br></div><p></p>",
+          "_styles": {
+            "P": {
+              "color": "#ffffff"
+            },
+            "DIV": {
+              "color": "#ffffff"
+            }
+          }
+        }
+      ]
+    },
+    "galaxy.html": {
+      "settings": {
+        "title": "กาแล็กซี่",
+        "meta_descr": "ไม่ใช่แค่โลกเท่านั้นที่อยู่ในอวกาศ",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700",
+              "font-family": "'PT Sans Narrow', sans-serif"
+            },
+            ".link": {
+              "font-size": "1.1rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.191rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#1b044f"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#260571!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#2b0680"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-p",
+          "_params": {
+            "bgColor": "#2b0680",
+            "fontSize": "1.1",
+            "fontName": {
+              "name": "PT Sans Narrow",
+              "url": "https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700",
+              "css": "'PT Sans Narrow', sans-serif"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": false,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">หน้าหลัก</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"whatispace.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">อวกาศ</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"whatispace.html\">อวกาศคืออะไร</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"whatispace.html#content5-f\">มวลสารระหว่างดาว</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"solarsystem.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">ระบบสุริยะ</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"solarsystem.html\">ระบบสุริยะ</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"solarsystem.html#msg-box8-m\">การค้นพบระบบสุริยะ</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"solarsystem.html#content1-n\">กำเนิดระบบสุริยะ</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"galaxy.html\" aria-expanded=\"false\">กาแล็กซี่</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"universe.html\" aria-expanded=\"false\">เอกภพ</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">ผู้จัดทำเว็บไซต์</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"myprofiles.html\">ผู้จัดทำ</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">หมายเหตุ</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">ผู้จัดทำ</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-q",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": false,
+            "showArrow": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "width": 1280,
+              "height": 720,
+              "url": "https://www.youtube.com/embed/OCkNyRycPN0?rel=0&amp;showinfo=0&autoplay=0&loop=0"
+            },
+            "bgVideoRadio": true,
+            "overlay": true,
+            "overlayOpacity": "0.6",
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "title": "กาแล็กซี่",
+          "text": "ดาราจักร หรือ กาแล็กซี (อังกฤษ: galaxy) เป็นกลุ่มของดาวฤกษ์นับล้านดวง กับสสารระหว่างดาวอันประกอบด้วยแก๊ส ฝุ่น และสสารมืด รวมอยู่ด้วยกันด้วยแรงโน้มถ่วง คำนี้มีที่มาจากภาษากรีกว่า galaxias หมายถึง \"น้ำนม\" ซึ่งสื่อโดยตรงถึงดาราจักรทางช้างเผือก (Milky Way) ดาราจักรโดยทั่วไปมีขนาดน้อยใหญ่ต่างกัน นับแต่ดาราจักรแคระที่มีดาวฤกษ์ประมาณสิบล้านดวง &nbsp;ไปจนถึงดาราจักรขนาดยักษ์ที่มีดาวฤกษ์นับถึงล้านล้านดวง &nbsp;โคจรรอบศูนย์กลางมวลจุดเดียวกัน ในดาราจักรหนึ่ง ๆ ยังประกอบไปด้วยระบบดาวหลายดวง กระจุกดาวจำนวนมาก และเมฆระหว่างดาวหลายประเภท ดวงอาทิตย์ของเราเป็นหนึ่งในบรรดาดาวฤกษ์ในดาราจักรทางช้างเผือก เป็นศูนย์กลางของระบบสุริยะซึ่งมีโลกและวัตถุอื่น ๆ โคจรโดยรอบ",
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD FOR MAC</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            },
+            ".lead DIV": {
+              "color": "#ffffff"
+            },
+            ".lead": {
+              "color": "#ffffff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-t",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/img-2000x1125.jpg",
+            "bgColor": "#F2F2F2",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": false,
+            "showText": true,
+            "showButton": false
+          },
+          "title": "การค้นพบระบบสุริยะ",
+          "text": "<p>ในอดีตมีการแบ่งดาราจักรเป็นชนิดต่าง ๆ โดยจำแนกจากลักษณะที่มองเห็นด้วยตา รูปแบบที่พบโดยทั่วไปคือดาราจักรรี (elliptical galaxy) &nbsp;ซึ่งปรากฏให้เห็นเป็นรูปทรงรี ดาราจักรชนิดก้นหอย (spiral galaxy) เป็นดาราจักรรูปร่างแบนเหมือนจาน ภายในมีแขนฝุ่นเป็นวงโค้ง ดาราจักรที่มีรูปร่างไม่แน่นอนหรือแปลกประหลาดเรียกว่าดาราจักรแปลก (peculiar galaxy) ซึ่งมักเกิดจากการถูกรบกวนด้วยแรงโน้มถ่วงของดาราจักรข้างเคียง อันตรกิริยาระหว่างดาราจักรในลักษณะนี้อาจส่งผลให้ดาราจักรมารวมตัวกัน และทำให้เกิดสภาวะที่ดาวฤกษ์มาจับกลุ่มกันมากขึ้นและกลายสภาพเป็นดาราจักรที่สร้างดาวฤกษ์ใหม่อย่างบ้าคลั่ง เรียกว่าดาราจักรชนิดดาวกระจาย (starburst galaxy) นอกจากนี้ดาราจักรขนาดเล็กที่ปราศจากโครงสร้างอันเชื่อมโยงกันก็มักถูกเรียกว่าดาราจักรไร้รูปแบบ (irregular galaxy)&nbsp;</p><p><br></p><p>เชื่อกันว่าในเอกภพที่สังเกตได้มีดาราจักรอยู่ประมาณหนึ่งแสนล้านแห่ง &nbsp;ดาราจักรส่วนใหญ่มีเส้นผ่านศูนย์กลางระหว่าง 1,000 ถึง 100,000 พาร์เซก และแยกห่างจากกันและกันนับล้านพาร์เซก (หรือเมกะพาร์เซก) &nbsp;ช่องว่างระหว่างดาราจักรประกอบด้วยแก๊สเบาบางที่มีความหนาแน่นเฉลี่ยต่ำกว่า 1 อะตอมต่อลูกบาศก์เมตร ดาราจักรส่วนใหญ่จะจับกลุ่มเรียกว่ากระจุกดาราจักร (cluster) ในบางครั้งกลุ่มของดาราจักรนี้อาจมีขนาดใหญ่มาก เรียกว่ากลุ่มกระจุกดาราจักร (supercluster) โครงสร้างขนาดมหึมาขึ้นไปกว่านั้นเป็นกลุ่มดาราจักรที่โยงใยถึงกันเรียกว่า ใยเอกภพ (filament) ซึ่งกระจายอยู่ครอบคลุมเนื้อที่อันกว้างใหญ่ไพศาลของเอกภพ</p><p><br></p><p>แม้จะยังไม่เป็นที่เข้าใจนัก แต่ดูเหมือนว่าสสารมืดจะเป็นองค์ประกอบกว่า 90% ของมวลในดาราจักรส่วนใหญ่ ข้อมูลจากการสังเกตการณ์พบว่าหลุมดำมวลยวดยิ่งอาจอยู่ที่บริเวณใจกลางของดาราจักรจำนวนมาก แม้จะไม่ใช่ทั้งหมด มีข้อเสนอว่ามันอาจเป็นสาเหตุเริ่มต้นของนิวเคลียสดาราจักรกัมมันต์ (active galactic nucleus: AGN) ซึ่งพบที่บริเวณแกนกลางของดาราจักร ดาราจักรทางช้างเผือกเองก็มีหลุมดำเช่นว่านี้อยู่ที่นิวเคลียสด้วยอย่างน้อยหนึ่งหลุม&nbsp;</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_styles": {
+            ".mbr-section-title, .lead p": {
+              "color": "#fff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box6",
+          "_anchor": "msg-box6-w",
+          "_params": {
+            "imageSize": 50,
+            "paddingTop": "3",
+            "paddingBottom": "3",
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/hubble2005-01-barred-spiral-galaxy-ngc1300-2000x1141.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "inverse": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/m104-ngc4594-sombrero-galaxy-hi-res-1400x784.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "กาแล็กซี่หมวกปีก",
+          "text": "กาแล็กซี่หมวกปีก (อังกฤษ: Sombrero Galaxy) หรือรู้จักกันดีในชื่อ วัตถุท้องฟ้าของเมซีเย 104, เอ็ม104 หรือ เอ็นจีซี 4594 เป็นดาราจักรชนิดก้นหอยไม่มีคาน ที่ตั้งอยู่ในกลุ่มดาวหญิงสาว ห่างจากโลก 28 ปีแสง กิโลพาร์เซก",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
+        }
+      ]
+    },
+    "universe.html": {
+      "settings": {
+        "title": "เอกภพ",
+        "meta_descr": "ไม่ใช่แค่โลกเท่านั้นที่อยู่ในอวกาศ",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700",
+              "font-family": "'PT Sans Narrow', sans-serif"
+            },
+            ".link": {
+              "font-size": "1.1rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.191rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#1b044f"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#260571!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#2b0680"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-x",
+          "_params": {
+            "bgColor": "#2b0680",
+            "fontSize": "1.1",
+            "fontName": {
+              "name": "PT Sans Narrow",
+              "url": "https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700",
+              "css": "'PT Sans Narrow', sans-serif"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": false,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">หน้าหลัก</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"whatispace.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">อวกาศ</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"whatispace.html\">อวกาศคืออะไร</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"whatispace.html#content5-f\">มวลสารระหว่างดาว</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"solarsystem.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">ระบบสุริยะ</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"solarsystem.html\">ระบบสุริยะ</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"solarsystem.html#msg-box8-m\">การค้นพบระบบสุริยะ</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"solarsystem.html#content1-n\">กำเนิดระบบสุริยะ</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"galaxy.html\" aria-expanded=\"false\">กาแล็กซี่</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"universe.html\" aria-expanded=\"false\">เอกภพ</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">ผู้จัดทำเว็บไซต์</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"myprofiles.html\">ผู้จัดทำ</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">หมายเหตุ</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">ผู้จัดทำ</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-y",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": false,
+            "showArrow": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "width": 1280,
+              "height": 720,
+              "url": "https://www.youtube.com/embed/4Cqsbtmg96w?rel=0&amp;showinfo=0&autoplay=0&loop=0"
+            },
+            "bgVideoRadio": true,
+            "overlay": true,
+            "overlayOpacity": "0.8",
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "title": "เอกภพ",
+          "text": "เอกภพ หรือ จักรวาล โดยทั่วไปนิยามว่าเป็นผลรวมของการดำรงอยู่ รวมทั้งดาวเคราะห์ ดาวฤกษ์ ดาราจักร สิ่งที่บรรจุอยู่ในอวกาศระหว่างดาราจักร และสสารและพลังงานทั้งหมด<br><br>การสังเกตเอกภพทางวิทยาศาสตร์ ซึ่งเชื่อกันว่ามีเส้นผ่านศูนย์กลาง 93,000 ล้านปีแสง &nbsp;นำไปสู่อนุมานขั้นแรกเริ่มของเอกภพ การสังเกตเหล่านี้แนะว่า เอกภพถูกควบคุมด้วยกฎทางฟิสิกส์และค่าคงที่เดียวกันตลอดขนาดและประวัติศาสตร์ส่วนใหญ่ ทฤษฎีบิกแบงเป็นแบบจำลองจักรวาลวิทยาทั่วไปซึ่งอธิบายพัฒนาการแรกเริ่มของเอกภพ ซึ่งในจักรวาลวิทยากายภาพเชื่อว่าเกิดขึ้นเมื่อราว 13,700 ล้านปีก่อน&nbsp;<br><br>มีนักฟิสิกส์มากมายเชื่อสมมุติฐานเกี่ยวกับพหุภพ ซึ่งกล่าวไว้ว่าเอกภพอาจเป็นหนึ่งในภพจำนวนมากที่มีอยู่เช่นกัน ระยะทางไกลสุดที่เป็นไปได้ทางทฤษฎีแก่มนุษย์ที่จะมองเห็นอธิบายว่าเป็น เอกภพที่สังเกตได้ การสังเกตได้แสดงว่า เอกภพดูจะขยายตัวในอัตราเร่ง และมีหลายแบบจำลองเกิดขึ้นเพื่อพยากรณ์ชะตาสุดท้ายของเอกภพ",
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD FOR MAC</a>"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_styles": {
+            ".mbr-section-title, .lead p": {
+              "color": "#fff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box6",
+          "_anchor": "msg-box6-10",
+          "_params": {
+            "imageSize": "37",
+            "paddingTop": "3",
+            "paddingBottom": "3",
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/universe-background-2000x1250.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "inverse": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/hubble-ultra-deep-field-1400x1400.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "ภาพส่วนหนึ่งของเอกภพ",
+          "text": "ภาพอวกาศห้วงลึกมากของฮับเบิล ที่ประกอบด้วยกาแล็กซีที่มีอายุ ขนาด รูปร่าง และสีแตกต่างกัน",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
+        }
+      ]
+    },
+    "myprofiles.html": {
+      "settings": {
+        "title": "ผู้จัดทำ",
+        "meta_descr": "ไม่ใช่แค่โลกเท่านั้นที่อยู่ในอวกาศ",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700",
+              "font-family": "'PT Sans Narrow', sans-serif"
+            },
+            ".link": {
+              "font-size": "1.1rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.191rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#1b044f"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#260571!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#2b0680"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-11",
+          "_params": {
+            "bgColor": "#2b0680",
+            "fontSize": "1.1",
+            "fontName": {
+              "name": "PT Sans Narrow",
+              "url": "https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700",
+              "css": "'PT Sans Narrow', sans-serif"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": false,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">หน้าหลัก</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"whatispace.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">อวกาศ</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"whatispace.html\">อวกาศคืออะไร</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"whatispace.html#content5-f\">มวลสารระหว่างดาว</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"solarsystem.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">ระบบสุริยะ</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"solarsystem.html\">ระบบสุริยะ</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"solarsystem.html#msg-box8-m\">การค้นพบระบบสุริยะ</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"solarsystem.html#content1-n\">กำเนิดระบบสุริยะ</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"galaxy.html\" aria-expanded=\"false\">กาแล็กซี่</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"universe.html\" aria-expanded=\"false\">เอกภพ</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">ผู้จัดทำเว็บไซต์</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"myprofiles.html\">ผู้จัดทำ</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">หมายเหตุ</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">ผู้จัดทำ</a></li>"
+        },
+        {
+          "_inherit": "header1",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header4",
+          "_anchor": "header4-17",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/13718683-608126112700276-94830950767093379-n-2000x1199.png",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "title": "นาย ณัฐวุฒิ มั่นใจอารยะ",
+          "text": "<br><b>ชั้น&nbsp;</b>&nbsp;<span style=\"font-style: normal;\">มัธยมศึกษาปีที่ 3/1&nbsp;<b>เลขที่</b> 5 </span><br><b>วันเกิด&nbsp;</b>&nbsp;<span style=\"font-style: normal;\">1 มิถุนายน 2544 <b>อายุ</b> 15 ปี</span><span style=\"font-style: normal;\"><br></span><b>มาจาก&nbsp;</b>&nbsp;<span style=\"font-style: normal;\">โรงเรียนบางชวดอนุสรณ์</span><br><b>วิชาที่ชอบ </b><span style=\"font-style: normal;\">คอมพิวเตอร์,ภาษาอังกฤษ</span><br><b>วิชาที่ไม่ชอบ</b> <span style=\"font-style: normal;\">คณิตศาสตร์</span><br><b style=\"font-style: normal;\">สีที่ชอบ</b> สีเหลือง สีชมพู<br><b>งานอดิเรก</b> ทำเกม ทำเว็บไซต์ เล่นเกม วาดรูป ดูการ์ตูนญี่ปุ่น<br><br><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
+          "_styles": {
+            ".mbr-section-lead": {
+              "text-align": "left"
+            },
+            ".mbr-section-title": {
+              "text-align": "left"
+            },
+            ".mbr-section-lead SPAN": {
+              "text-align": "center"
+            }
+          }
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            },
+            ".lead": {
+              "color": "#ffffff",
+              "font-size": "20px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-19",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/kiss-wallpaper-photo-kissing-wallpaper-kiss-wallpaper-14-2000x1125.jpg",
+            "bgColor": "#F2F2F2",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButton": false
+          },
+          "title": "ความทรงจำดีๆ",
+          "text": "รูปภาพย้อนความหลังตั้งแต่ ป.6 จนถึง ม.3",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "images": [
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/13731439-608125716033649-3080443182349885835-n-2000x3330-800x1332.jpg",
+                "image": "@PROJECT_PATH@/assets/images/13731439-608125716033649-3080443182349885835-n-2000x3330.jpg",
+                "caption": "ไปงาน To Be Number One กับ&nbsp; กฤษฎา จาลุย และ ธีรยุทธ ทุมมะลา",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/14708191-662740510572169-3897124078080022843-n-2000x3333-800x1333.jpg",
+                "image": "@PROJECT_PATH@/assets/images/14708191-662740510572169-3897124078080022843-n-2000x3333.jpg",
+                "caption": "ประชุมผู้ปกครอง ม.3",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/10881570-385627211616835-6114912152954946025-n-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/10881570-385627211616835-6114912152954946025-n-2000x2000.jpg",
+                "caption": "รูปตอนสมัย ม.1",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/13707715-608126129366941-2554846504005013942-n-2000x1200-800x480.jpg",
+                "image": "@PROJECT_PATH@/assets/images/13707715-608126129366941-2554846504005013942-n-2000x1200.jpg",
+                "caption": "ไปงาน To Be Number One กับ กฤษฎา จาลุย (ม.3)",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/13718683-608126112700276-94830950767093379-n-2000x1199-800x479.jpg",
+                "image": "@PROJECT_PATH@/assets/images/13718683-608126112700276-94830950767093379-n-2000x1199.jpg",
+                "caption": "ไปงาน&nbsp;To Be Number One&nbsp;(ม.3)",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/1779064-676635579065970-807031013-n-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/1779064-676635579065970-807031013-n-2000x1500.jpg",
+                "caption": "รูปตอนสมัย ป.6",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/10750080-748935438517664-3624742813080260033-o-2000x1334-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/10750080-748935438517664-3624742813080260033-o-2000x1334.jpg",
+                "caption": "ร้องเพลงกิจกรรม Christmas day ตอน ม.1",
+                "active": true
+              }
+            ],
+            "spacing": 0,
+            "showText": true,
+            "filter": false,
+            "bgColor": "#2b0680",
+            "filterBgColor": false,
+            "fullWidth": false,
+            "showBullets": true
+          },
+          "_anchor": "gallery1-18",
+          "articleLayout": false,
+          "allItem": "All"
         }
       ]
     }
